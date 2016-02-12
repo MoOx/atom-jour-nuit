@@ -21,7 +21,7 @@
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "echo 'When Atom start, ctrl+alt+cmd+p to run specs' && sleep 2 & atom --dev .",
-    "release": "apm release $(node -e 'process.stdout.write(require(\"./package.json\").version)')"
+    "release": "apm publish $(node -e 'process.stdout.write(require(\"./package.json\").version)')"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
