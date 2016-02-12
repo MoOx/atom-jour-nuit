@@ -1,0 +1,39 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "Like F.lux, for Atom themes. Auto switch UI/Syntax themes depending on the time of the day.",
+  "keywords": [
+    "theme",
+    "themes",
+    "switcher",
+    "flux",
+    "f.lux",
+    "dark",
+    "light"
+  ],
+  "repository": "https://github.com/MoOx/atom-f.lux",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.8 <2.0.0"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "echo 'When Atom start, ctrl+alt+cmd+p to run specs' && sleep 2 & atom --dev .",
+    "release": "apm release $(node -e 'process.stdout.write(require(\"./package.json\").version)')"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-i-am-meticulous": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-i-am-meticulous",
+    "env": {
+      "jasmine": true
+    },
+    "globals": {
+      "atom": true
+    }
+  }
+}
