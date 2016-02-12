@@ -6,7 +6,7 @@ import flux from "../lib/index"
 const noTheme = [ "", "" ]
 const getThemes = () => atom.config.get("core.themes")
 
-describe("atom f.lux", () => {
+describe("Atom Jour Nuit", () => {
   beforeEach(() => {
     spyOn(Date, "now")
     window.setInterval = window.fakeSetInterval

@@ -11,7 +11,7 @@
     "dark",
     "light"
   ],
-  "repository": "https://github.com/MoOx/atom-f.lux",
+  "repository": "https://github.com/MoOx/atom-jour-nuit.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.8 <2.0.0"

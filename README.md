@@ -1,6 +1,6 @@
-# Atom f.lux
+# Atom Jour Nuit
 
-[![Build status](https://img.shields.io/travis/MoOx/atom-f.lux/master.svg?branch=master&label=build)](https://travis-ci.org/MoOx/atom-f.lux)
+[![Build status](https://img.shields.io/travis/MoOx/atom-jour-nuit/master.svg?branch=master&label=build)](https://travis-ci.org/MoOx/atom-jour-nuit)
 
 > Like F.lux, for Atom themes.
 
