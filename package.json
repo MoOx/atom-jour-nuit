@@ -1,5 +1,5 @@
 {
-  "name": "flux",
+  "name": "jour-nuit",
   "version": "1.0.0",
   "description": "Like F.lux, for Atom themes. Auto switch UI/Syntax themes depending on the time of the day.",
   "keywords": [
