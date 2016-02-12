@@ -1,7 +1,7 @@
 /** @babel */
 
 import { schema } from "../lib/config"
-import flux from "../lib/index"
+import jourNuit from "../lib/index"
 
 const noTheme = [ "", "" ]
 const getThemes = () => atom.config.get("core.themes")
@@ -15,7 +15,7 @@ describe("Atom Jour Nuit", () => {
 
   const initTest = (h) => {
     Date.now.andReturn(new Date(null, null, null, h).getTime())
-    flux.activate()
+    jourNuit.activate()
   }
 
   it("should change again at night", () => {

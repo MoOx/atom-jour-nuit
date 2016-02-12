@@ -1,6 +1,10 @@
+# 1.0.2 - 2016-02-12
+
+- Rename settings key
+
 # 1.0.1 - 2016-02-12
 
-Renamed per f.lux team request.
+- Package renamed per f.lux team request (flux -> jour-nuit).
 
 # 1.0.0 - 2016-02-12
 
