@@ -1,6 +1,6 @@
 {
   "name": "flux",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Like F.lux, for Atom themes. Auto switch UI/Syntax themes depending on the time of the day.",
   "keywords": [
     "theme",
@@ -20,8 +20,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "echo 'When Atom start, ctrl+alt+cmd+p to run specs' && sleep 2 & atom --dev .",
-    "release": "apm publish $(node -e 'process.stdout.write(require(\"./package.json\").version)')"
+    "test": "echo 'When Atom start, ctrl+alt+cmd+p to run specs' && sleep 2 & atom --dev ."
   },
   "devDependencies": {
     "eslint": "^1.10.3",
